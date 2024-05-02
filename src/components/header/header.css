@@ -5,6 +5,9 @@
     align-items: center;
     color: white;
     background-color: black;
+    top:0;
+    position: sticky;
+    z-index: 2000;
 }
 
 .header__left{
@@ -14,7 +17,7 @@
 .header__left > h1{
     font-family: "alata";
     letter-spacing: 2px;
-    padding: 20px;
+    padding: 5px;
 }
 
 .header__left >h1> span{
@@ -31,7 +34,7 @@
     font-size: 18px;
     transition: transform 200ms ease-in-out;
     letter-spacing: 1px;
-    
+   align-items: center;
 }
 
 .header__right > a >h4:hover{
@@ -39,7 +42,7 @@
     cursor: pointer;
     transform: scale(5px);
     background-color:#f64c08;
-    padding: 5px 20px;
+    padding: 2px ;
     border-radius: 2px;
     letter-spacing: 1px;
 }

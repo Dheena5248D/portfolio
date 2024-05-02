@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background: url("../../assets/react.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position:center;
+    background-size: cover;
+    background-attachment: scroll;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.2);
+}
+.topContent{
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: 170px;
+    font-size: 25px;
+}
+.topContent>h1 > span{
+    color:#f64c08;
+}
+.topContent>h3{
+    color:#f64c08
+}
+.topContent > h6 >span{
+    color:#f64c08
+}
+.topContent > a > button{
+    margin-top: 30px;
+    margin-left: 5px;
+    text-align: left;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+.topContent__downloadButton{
+    color: white;
+    font-family: "Montserrat";
+    border: 1px solid #f64c08 !important;
+    background-color: #f64c08;
+    font-size: 14px;
+    padding: 9px 20px;
+    margin-right: 20px;
+    font-weight: 300px;
+}
+.topContent__contactButton{
+    color: white;
+    font-family: "Montserrat";
+    border: 1px solid white !important;
+    background: transparent;
+    font-size: 14px;
+    padding: 9px 20px;
+}
+.topContent__contactButton:hover, .topContent__downloadButton:hover{
+    color:black;
+    background-color: white;
+    font-weight: 600;
+    border: 1px solid white !important;
+}
