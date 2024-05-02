@@ -1,19 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-body{
-    background: url("../../assets/react.jpg");
+.TopContainer{
+    background-image: url("../../assets/react.jpg");
     background-repeat: no-repeat;
     height: 100vh;
     background-position:center;
     background-size: cover;
     background-attachment: scroll;
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.2);
+    position: relative;
 }
+
 .topContent{
-    color: white;
     position: absolute;
+    color: white;
     top: 250px;
     left: 170px;
     font-size: 25px;
+    margin-bottom: 50px; 
+
 }
 .topContent>h1 > span{
     color:#f64c08;

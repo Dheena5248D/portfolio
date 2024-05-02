@@ -13,7 +13,6 @@ const header = () => {
       <Link to='projects' smooth={true} duration={500}><h4>Projects</h4></Link>
       <Link to='contact me' smooth={true} duration={500}><h4>Contact Me</h4></Link>
       </div>
-
     </div>
   )
 }
