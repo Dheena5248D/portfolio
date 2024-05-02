@@ -1,3 +1,64 @@
-/* .sillContainer {
-    margin-top: 600px; 
- } */
+.skillContainer{
+    background-color: #00212c;
+    padding-top: 35px;
+}
+
+#skills_text{
+    font-size: 52px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    color: rgb(242, 243, 244);
+}
+#skillContentHolder{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 50px;
+    justify-content: center;
+}
+.webDev{
+    width: 100%;
+    max-width: 450px;
+    background-color: rgba(17, 25, 40, 0.83);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    border-radius: 16px;
+    padding: 18px 56px;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(177, 178, 179);
+}
+.skillsHolder{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+.skillContentContainer{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(242, 243, 244, 0.5);
+    border: 1px solid rgba(242, 243, 244, 0.5);
+    border-radius: 12px;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.skillLogo{
+    width: 24px;
+    height: 24px;
+}
+.SkillTextHolder{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(177, 178, 179);
+}
